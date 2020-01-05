@@ -11,7 +11,7 @@ namespace FactoryMethod
             - Intenção: definir uma interface para criar um objeto, mas deixar as subclasses decidirem
                         que classe instanciar.
             - Criar uma instância de várias classes derivadas.
-             
+            - Boa extensibilidade
             VANTAGENS: Permite a criação de produtos sem saber os detalhes ou dependencias entre produtos, precisa somente passar os dados para crialos.
              */
 
