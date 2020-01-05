@@ -12,6 +12,7 @@ namespace FactoryMethod
                         que classe instanciar.
             - Criar uma instância de várias classes derivadas.
              
+            VANTAGENS: Permite a criação de produtos sem saber os detalhes ou dependencias entre produtos, precisa somente passar os dados para crialos.
              */
 
         static void Main(string[] args)
