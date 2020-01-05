@@ -1,0 +1,5 @@
+PADRÕES CRIACIONAIS - SÃO 5
+
+- Eles disponibilizam uma maneira para criar objetos ocultando os detalhes da sua criação,
+ao invés de utilizar o operador new diretamente. Isto da mais flexibilidade na hora de decidir
+quais objetos precisam ser criados para um determinado caso.

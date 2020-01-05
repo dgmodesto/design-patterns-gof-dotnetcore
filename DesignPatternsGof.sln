@@ -8,8 +8,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{277D08B7-CFFF-4A38-8505-DFDF939777BE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Criacionais", "Criacionais", "{00283DA7-83B2-4E0F-BB62-CFCF279C33E2}"
+	ProjectSection(SolutionItems) = preProject
+		aboutCriationalPattern.txt = aboutCriationalPattern.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Estruturais", "Estruturais", "{082C7552-DBE3-4AF5-899C-20B4B83DAE88}"
+	ProjectSection(SolutionItems) = preProject
+		aboutExtructuralPattern.txt = aboutExtructuralPattern.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comportamentais", "Comportamentais", "{1EFA31F7-2E93-4D15-9AEA-E402DDF10D8C}"
 EndProject
