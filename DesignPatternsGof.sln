@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{5DE58511-FB9E-45D0-A1E6-B5925F9B3769}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{5DE58511-FB9E-45D0-A1E6-B5925F9B3769}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{277D08B7-CFFF-4A38-8505-DFDF939777BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{277D08B7-CFFF-4A38-8505-DFDF939777BE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Criacionais", "Criacionais", "{00283DA7-83B2-4E0F-BB62-CFCF279C33E2}"
 	ProjectSection(SolutionItems) = preProject
@@ -19,15 +19,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Estruturais", "Estruturais"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comportamentais", "Comportamentais", "{1EFA31F7-2E93-4D15-9AEA-E402DDF10D8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{D12E8A92-220A-45E5-8C02-8EC5263ED347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{D12E8A92-220A-45E5-8C02-8EC5263ED347}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{832314B9-02FF-4C7C-A94C-4FFAFD745A51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{832314B9-02FF-4C7C-A94C-4FFAFD745A51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{0C09D555-0A24-40EE-8691-ABFD3EC9D831}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{0C09D555-0A24-40EE-8691-ABFD3EC9D831}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{B243219E-FB79-4CF5-B3E4-A2346928CC3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{B243219E-FB79-4CF5-B3E4-A2346928CC3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{E69067FA-E0A6-4D30-80C5-4E79EFB5E295}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{E69067FA-E0A6-4D30-80C5-4E79EFB5E295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{CD3A893F-60FE-43F1-89A5-61A03F3D88ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{E69067FA-E0A6-4D30-80C5-4E79EFB5E295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E69067FA-E0A6-4D30-80C5-4E79EFB5E295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E69067FA-E0A6-4D30-80C5-4E79EFB5E295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3A893F-60FE-43F1-89A5-61A03F3D88ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3A893F-60FE-43F1-89A5-61A03F3D88ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3A893F-60FE-43F1-89A5-61A03F3D88ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3A893F-60FE-43F1-89A5-61A03F3D88ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +81,7 @@ Global
 		{0C09D555-0A24-40EE-8691-ABFD3EC9D831} = {00283DA7-83B2-4E0F-BB62-CFCF279C33E2}
 		{B243219E-FB79-4CF5-B3E4-A2346928CC3F} = {082C7552-DBE3-4AF5-899C-20B4B83DAE88}
 		{E69067FA-E0A6-4D30-80C5-4E79EFB5E295} = {082C7552-DBE3-4AF5-899C-20B4B83DAE88}
+		{CD3A893F-60FE-43F1-89A5-61A03F3D88ED} = {082C7552-DBE3-4AF5-899C-20B4B83DAE88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD94824D-AC00-4111-9362-FA17CDE90B79}
