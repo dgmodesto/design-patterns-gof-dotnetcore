@@ -44,6 +44,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{06870D12-966D-438E-A852-7D5404F9E5C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{6D507A82-56D0-4BB3-AEB1-5637A8241BAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,6 +104,10 @@ Global
 		{06870D12-966D-438E-A852-7D5404F9E5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06870D12-966D-438E-A852-7D5404F9E5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06870D12-966D-438E-A852-7D5404F9E5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D507A82-56D0-4BB3-AEB1-5637A8241BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D507A82-56D0-4BB3-AEB1-5637A8241BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D507A82-56D0-4BB3-AEB1-5637A8241BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D507A82-56D0-4BB3-AEB1-5637A8241BAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +126,7 @@ Global
 		{8A8755C8-80BF-409D-B7DF-5C4512A8B8E9} = {082C7552-DBE3-4AF5-899C-20B4B83DAE88}
 		{E2A90A06-C208-4D0E-B58B-576975713570} = {082C7552-DBE3-4AF5-899C-20B4B83DAE88}
 		{06870D12-966D-438E-A852-7D5404F9E5C2} = {1EFA31F7-2E93-4D15-9AEA-E402DDF10D8C}
+		{6D507A82-56D0-4BB3-AEB1-5637A8241BAD} = {1EFA31F7-2E93-4D15-9AEA-E402DDF10D8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD94824D-AC00-4111-9362-FA17CDE90B79}
