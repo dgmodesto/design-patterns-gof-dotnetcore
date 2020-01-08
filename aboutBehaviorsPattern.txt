@@ -1,0 +1,2 @@
+PADRÃO COMPORTAMENTAL - são 11
+ - Ele são especificamente relacionados com a comunicação entre objetos.
