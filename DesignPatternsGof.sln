@@ -58,6 +58,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Interpreter\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{769F7FE6-4A1B-4EF2-A384-C96E744DA400}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{B28DC5A3-EC59-4777-943C-AA53BA85CC1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -144,6 +146,10 @@ Global
 		{769F7FE6-4A1B-4EF2-A384-C96E744DA400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{769F7FE6-4A1B-4EF2-A384-C96E744DA400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{769F7FE6-4A1B-4EF2-A384-C96E744DA400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28DC5A3-EC59-4777-943C-AA53BA85CC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28DC5A3-EC59-4777-943C-AA53BA85CC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28DC5A3-EC59-4777-943C-AA53BA85CC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28DC5A3-EC59-4777-943C-AA53BA85CC1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,6 +175,7 @@ Global
 		{30AFFC42-3660-45D5-B05E-E09E53EA604B} = {1EFA31F7-2E93-4D15-9AEA-E402DDF10D8C}
 		{6136F35B-7B57-46A3-B4FF-6F56CEA8BA4F} = {1EFA31F7-2E93-4D15-9AEA-E402DDF10D8C}
 		{769F7FE6-4A1B-4EF2-A384-C96E744DA400} = {1EFA31F7-2E93-4D15-9AEA-E402DDF10D8C}
+		{B28DC5A3-EC59-4777-943C-AA53BA85CC1D} = {1EFA31F7-2E93-4D15-9AEA-E402DDF10D8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD94824D-AC00-4111-9362-FA17CDE90B79}
